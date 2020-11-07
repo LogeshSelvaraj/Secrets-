@@ -1,13 +1,15 @@
 {
-  "name": "Secrets",
+  "name": "secrets",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "md5": "^2.3.0",
     "mongoose": "^5.4.5",
     "mongoose-encryption": "^2.0.1"
   },
@@ -17,5 +19,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/londonappbrewery/Authentication-Secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/londonappbrewery/Authentication-Secrets/issues"
+  },
+  "homepage": "https://github.com/londonappbrewery/Authentication-Secrets#readme"
 }
